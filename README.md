@@ -83,6 +83,14 @@ msbuild /p:Configuration=Release /p:Platform="Any CPU" /p:OutputPath=.\dist
       <img src="docs/screenshots/open-browser-group.png" onclick="openModal(this)" class="hover-shadow" alt="打开浏览器分组">
       <div class="caption"><em>▲ 可按整组或选择的浏览器账号进行打开</em></div>
     </div>
+    <div class="column">
+      <img src="docs/screenshots/create-multi-account.png" onclick="openModal(this)" class="hover-shadow" alt="打开浏览器分组">
+      <div class="caption"><em>▲ 创建多开账号，创建完账号后，点击 生成头像，按屏幕提示完成配置</em></div>
+    </div>
+    <div class="column">
+      <img src="docs/screenshots/windows-manager.png" onclick="openModal(this)" class="hover-shadow" alt="打开浏览器分组">
+      <div class="caption"><em>▲ 选择窗口后进行排列</em></div>
+    </div>
   </div>
 </div>
 
