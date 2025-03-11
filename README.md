@@ -24,7 +24,7 @@
 > ## ⚠️ 安全声明
 > 
 > 1. 本项目采用最小化依赖原则，唯一第三方组件为[Newtonsoft.Json](https://www.newtonsoft.com/json)
-> 2. 建议用户自行从[官方仓库](Browsers-Manager)获取源码编译
+> 2. 建议用户自行从[官方仓库]获取源码编译
 
 ## 核心功能
 
