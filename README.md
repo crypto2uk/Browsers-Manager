@@ -77,20 +77,14 @@ msbuild /p:Configuration=Release /p:Platform="Any CPU" /p:OutputPath=.\dist
   <div class="row">
     <div class="column">
       <img src="docs/screenshots/main.png" onclick="openModal(this)" class="hover-shadow" alt="主界面">
-      <div class="caption">主界面显示当前打开的浏览器窗口（账号标识）及状态</div>
+      <div class="caption"><em>▲ 主界面显示当前打开的浏览器窗口（账号标识）及状态</em></div>
     </div>
     <div class="column">
       <img src="docs/screenshots/open-browser-group.png" onclick="openModal(this)" class="hover-shadow" alt="打开浏览器分组">
-      <div class="caption">可按整组或选择的浏览器账号进行打开</div>
+      <div class="caption"><em>▲ 可按整组或选择的浏览器账号进行打开</em></div>
     </div>
   </div>
 </div>
-
-<!-- 模态框样式 -->
-<style>
-.hover-shadow:hover {box-shadow: 0 0 15px #FFD700;}
-.caption {color: #32CD32; font-family: 'Courier New';}
-</style>
 
 ## 更新日志
 
