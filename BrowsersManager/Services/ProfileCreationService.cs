@@ -767,17 +767,17 @@ namespace BrowsersManager.Services
                         continue;
                     }
 
-                    // Update the Preferences file
-                    string prefsPath = Path.Combine(configPath, "Default", "Preferences");
-                    if (!File.Exists(prefsPath))
-                    {
-                        Console.WriteLine($"Preferences 文件不存在: {prefsPath}");
-                        continue;
-                    }
+                    // // Update the Preferences file
+                    // string prefsPath = Path.Combine(configPath, "Default", "Preferences");
+                    // if (!File.Exists(prefsPath))
+                    // {
+                    //     Console.WriteLine($"Preferences 文件不存在: {prefsPath}");
+                    //     continue;
+                    // }
 
-                    // Set the avatar index in the Preferences file
-                    Console.WriteLine($"更新配置文件 {prefsPath} 中的头像索引为 27");
-                    await UpdateJsonFileAsync(prefsPath, "profile.avatar_index", 27);
+                    // // Set the avatar index in the Preferences file
+                    // Console.WriteLine($"更新配置文件 {prefsPath} 中的头像索引为 27");
+                    // await UpdateJsonFileAsync(prefsPath, "profile.avatar_index", 27);
 
                     successCount++;
                     Console.WriteLine($"成功为配置ID {configID} 生成并设置头像");
