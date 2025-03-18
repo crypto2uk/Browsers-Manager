@@ -1,0 +1,28 @@
+{
+    "A组":{
+        "total": 10,
+        "browserType": "Chrome",
+        "description": "三件套",
+        "profile_template": "Default",
+        "user_data_dir": "d:\\browser_user_data",
+        "profile_range": "Profile 59-Profile 68",
+        "default_user_agent": "",
+        "default_language": "zh-CN",
+        "other_parameters": "",
+        "items":[
+        ]
+    },
+    "B组":{
+        "total": 10,
+        "browserType": "Chrome",
+        "description": "Unisat",
+        "profile_template": "Default",
+        "user_data_dir": "e:\\browser_user_data",
+        "profile_range": "Profile 1-Profile 2",
+        "default_user_agent": "",
+        "default_language": "en-US",
+        "other_parameters": "",
+        "items":[
+        ]
+    }
+}
